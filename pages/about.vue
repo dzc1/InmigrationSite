@@ -1,9 +1,9 @@
 <template>
   <div>
     <NavBar />
-    <Hero v-for="hero in 1" :key="hero" />
-    <Why />
-    <Solutions />
+    <About />
+    <AboutGuides />
+    <AboutSection3 />
     <Footer />
   </div>
 </template>
@@ -12,5 +12,5 @@
 export default {}
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 </style>
